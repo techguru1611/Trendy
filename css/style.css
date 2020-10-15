@@ -1,0 +1,476 @@
+@font-face {
+  font-family: "Avenir LT Std";
+  src: url("../fontsAvenirLTStd-Black.woff2") format("woff2"), url("../fontsAvenirLTStd-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir LT Std";
+  src: url("../fontsAvenirLTStd-Book.woff2") format("woff2"), url("../fontsAvenirLTStd-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir LT Std";
+  src: url("../fontsAvenirLTStd-Roman.woff2") format("woff2"), url("../fontsAvenirLTStd-Roman.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/*--mixin start--*/
+@font-face {
+  font-family: "Avenir LT Std";
+  src: url("../fontsAvenirLTStd-Black.woff2") format("woff2"), url("../fontsAvenirLTStd-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir LT Std";
+  src: url("../fontsAvenirLTStd-Book.woff2") format("woff2"), url("../fontsAvenirLTStd-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir LT Std";
+  src: url("../fontsAvenirLTStd-Roman.woff2") format("woff2"), url("../fontsAvenirLTStd-Roman.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Avenir LT Std";
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #000;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  background-color: #E5E5E5;
+}
+
+/*----- Normalize.css Start -----*/
+/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+figcaption,
+figure,
+main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+b,
+strong {
+  font-weight: inherit;
+  font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #515151;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+audio,
+video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button, html [type=button],
+[type=reset], [type=submit] {
+  -webkit-appearance: button;
+  outline: 0;
+}
+
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button,
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details,
+menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  display: inline-block;
+}
+
+/*----- Normalize.css End -----*/
+.main-header {
+  background-color: #0017B3;
+  padding: 0px;
+  height: 100px;
+}
+.main-header .top-header {
+  color: #586cff;
+  border-bottom: 1px solid #1f296a;
+  padding: 10px 0;
+  height: 40px;
+}
+.main-header .top-header p {
+  font-size: 12px;
+  line-height: 16.39px;
+  letter-spacing: -2%;
+  margin-bottom: 0px;
+}
+@media only screen and (min-width: 767px) and (max-width: 1180px) {
+  .main-header .top-header p {
+    font-size: 9px;
+  }
+}
+.main-header .top-header p img {
+  padding-left: 5px;
+}
+@media only screen and (min-width: 767px) and (max-width: 1180px) {
+  .main-header .top-header p img {
+    width: 80px;
+  }
+}
+@media only screen and (min-width: 767px) and (max-width: 1180px) {
+  .main-header .top-header p .shopify {
+    width: 45px;
+  }
+}
+.main-header .top-header ul li {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.bottom-header {
+  display: flex;
+}
+.bottom-header .logo {
+  margin: 11px auto;
+}
+.bottom-header .menu-right {
+  color: #fff;
+  right: 15px;
+  position: absolute;
+  padding-top: 4px;
+}
+.bottom-header .menu-right .navbar {
+  padding: 8px 0px;
+}
+.bottom-header .menu-right .navbar .nav-item {
+  margin-left: 8px;
+  cursor: pointer;
+}
+.bottom-header .menu-right .navbar .nav-item:last-child {
+  margin-left: 0px;
+}
+.bottom-header .menu-right .navbar .nav-item .dropdown-toggle {
+  background-color: #001394;
+  border-radius: 25px;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 12px;
+  margin: 0px 8px;
+}
+.bottom-header .menu-right .navbar .nav-item .dropdown-toggle::after {
+  display: none;
+}
+.bottom-header .menu-right .navbar .nav-item .icon-outer {
+  height: 35px;
+  width: 35px;
+  background-color: #1b34f5;
+  text-align: center;
+  border-radius: 50px;
+  line-height: 1.8;
+}
+.bottom-header .menu-right .navbar .nav-item .icon-outer .badge {
+  position: absolute;
+  border-radius: 25px;
+  background-color: #ff0000;
+  font-weight: 500;
+  height: 15px;
+  width: 15px;
+  font-size: 10px;
+  text-align: center;
+}
+.bottom-header .menu-right .navbar .nav-item .icon-outer img {
+  filter: invert(0%) sepia(95%) saturate(3497%) hue-rotate(238deg) brightness(238%) contrast(57%);
+}
+.bottom-header .menu-right .navbar .nav-item .icon-outer:hover img {
+  filter: invert(0%) sepia(95%) saturate(3497%) hue-rotate(238deg) brightness(235%) contrast(132%);
+}
+.bottom-header .menu-right .navbar .nav-item .icon-outer.active img {
+  filter: invert(0%) sepia(95%) saturate(3497%) hue-rotate(238deg) brightness(235%) contrast(132%);
+}
+.bottom-header .menu-right .navbar .nav-link .rounded-circle {
+  width: 25px;
+}
+.bottom-header .menu-right .navbar .dropdown-menu-right {
+  width: 360px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.1);
+  border: none;
+  margin-top: 20px;
+}
+.bottom-header .menu-right .navbar .dropdown-menu-right .menu-list-outer .list-profile {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+.bottom-header .menu-right .navbar .dropdown-menu-right .menu-list-outer .list-profile .name-outer {
+  display: inline-grid;
+  padding-left: 12px;
+}
+.bottom-header .menu-right .navbar .dropdown-menu-right .menu-list-outer .list-profile .name-outer h4 {
+  font-size: 17px;
+  color: #00123f;
+  margin-bottom: 0px;
+}
+.bottom-header .menu-right .navbar .dropdown-menu-right .menu-list-outer .list-profile .name-outer p {
+  margin-bottom: 0;
+  font-size: 15px;
+  color: #8d97ae;
+  font-weight: 400;
+}
+.bottom-header .menu-right .navbar .dropdown-menu-right .menu-list-outer .list-profile .gift-refer {
+  height: 35px;
+  width: 35px;
+  background-color: #1b34f5;
+  text-align: center;
+  border-radius: 50px;
+  line-height: 1.8;
+}
+.bottom-header .menu-right .navbar .dropdown-menu-right .menu-list-outer .list-profile .gift-refer h4 {
+  color: #2c91fc;
+}
+.bottom-header .menu-right .navbar .dropdown-menu-right .menu-list-outer hr {
+  border-color: #dfe1e5;
+  width: 92%;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.bottom-header .menu-right .navbar .dropdown-menu-right .menu-list-outer .menu-listing {
+  padding: 5px;
+}
+.bottom-header .menu-right .navbar .dropdown-menu-right .menu-list-outer .menu-listing li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+.bottom-header .menu-right .navbar .dropdown-menu-right .menu-list-outer .menu-listing li:hover {
+  background-color: #f7f8fb;
+}
+.bottom-header .menu-right .navbar .dropdown-menu-right .menu-list-outer .menu-listing li .icon {
+  height: 35px;
+  width: 35px;
+  background-color: #e0e6f4;
+  text-align: center;
+  border-radius: 50px;
+  line-height: 1.8;
+}
+.bottom-header .menu-right .navbar .dropdown-menu-right .menu-list-outer .menu-listing li .icon .badge {
+  position: absolute;
+  border-radius: 25px;
+  background-color: #ff0000;
+  font-weight: 500;
+  height: 15px;
+  width: 15px;
+  font-size: 10px;
+  text-align: center;
+}
+.bottom-header .menu-right .navbar .dropdown-menu-right .menu-list-outer .menu-listing li .name {
+  display: inline-grid;
+  padding-left: 20px;
+}
+.bottom-header .menu-right .navbar .dropdown-menu-right .menu-list-outer .menu-listing li .name .text-blue {
+  color: #2c91fc;
+}
+.bottom-header .menu-right .navbar .dropdown-menu-right .menu-list-outer .menu-listing li .name h4 {
+  font-size: 17px;
+  color: #3a3a3a;
+  margin-bottom: 0px;
+}
+.bottom-header .menu-right .navbar .dropdown-menu-right .menu-list-outer .menu-listing li .name p {
+  margin-bottom: 0;
+  font-size: 15px;
+  color: #8d97ae;
+  font-weight: 400;
+}
+.bottom-header .menu-right .navbar .dropdown-menu-right .menu-list-outer .menu-listing .no-hover {
+  margin-bottom: 0;
+}
+.bottom-header .menu-right .navbar .dropdown-menu-right .menu-list-outer .menu-listing .no-hover:hover {
+  background-color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

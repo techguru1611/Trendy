@@ -1,0 +1,31 @@
+// primary colors
+
+$primary:#0017B3;
+$white:#fff;
+$lightgrey:#F7F8FB;
+$extra-lightgrey:#E0E6F4;
+$border-color:#eeeeee;
+
+/*--mixin start--*/
+@mixin transition {
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+}
+
+@mixin transform{
+    transform: translateY(-50%) skew(-15deg, 0deg) ;
+    -webkit-transform: translateY(-50%) skew(-15deg, 0deg) ;
+    -ms-transform: translateY(-50%) skew(-15deg, 0deg) ;
+    -o-transform: translateY(-50%) skew(-15deg, 0deg) ;
+    -moz-transform: translateY(-50%) skew(-15deg, 0deg) ;
+    @media(max-width:767px){
+        transform: translateY(-50%) skew(0deg, 0deg) ;
+    -webkit-transform: translateY(-50%) skew(0deg, 0deg) ;
+    -ms-transform: translateY(-50%) skew(0deg, 0deg) ;
+    -o-transform: translateY(-50%) skew(0deg, 0deg) ;
+    -moz-transform: translateY(-50%) skew(0deg, 0deg) ;
+    }
+}
